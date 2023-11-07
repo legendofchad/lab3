@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Website</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Add more CSS styles for your content as needed */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Website</h1>
+    </header>
+
+    <div class="container">
+        <h2>Biodata</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <td colspan="3">Your Full Name</td>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <td colspan="3">Your Date of Birth</td>
+            </tr>
+            <tr>
+                <th>Religion</th>
+                <td colspan="3">Your Religion</td>
+            </tr>
+            <!-- Add more biodata details here -->
+        </table>
+
+        <h2>Hobbies</h2>
+        <p>Describe your hobbies here.</p>
+
+        <h2>Campus Life</h2>
+        <p>Share your experiences, memorable moments, and activities during your campus life. You can include programs, conferences, industrial visits, vacations, celebrations, festivals, hangouts, etc.</p>
+    </div>
+</body>
+</html>
